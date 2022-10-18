@@ -1,6 +1,9 @@
 # IDE stuff
 .idea/
 *.iml
+.classpath
+.project
+.settings/
 
 # Compilation output
 target/

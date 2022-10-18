@@ -1,4 +1,4 @@
-package org.example;
+package org.jesus.helloworld;
 
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;

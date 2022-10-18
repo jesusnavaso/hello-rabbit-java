@@ -1,4 +1,4 @@
-package org.example;
+package org.jesus.helloworld;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -7,7 +7,8 @@ import com.rabbitmq.client.DeliverCallback;
 import java.nio.charset.StandardCharsets;
 
 public class Consumer {
-  private final static String QUEUE_NAME = "patata";
+
+  private static final String QUEUE_NAME = "patata";
 
   public static void main(String[] argv) throws Exception {
     ConnectionFactory factory = new ConnectionFactory();
