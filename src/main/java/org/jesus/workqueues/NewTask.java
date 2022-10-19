@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 
 public class NewTask {
 
-  private static final String QUEUE_NAME = "task_queue";
+  static final String QUEUE_NAME = "task_queue";
 
   public static void main(String[] argv) throws Exception {
     ConnectionFactory factory = new ConnectionFactory();

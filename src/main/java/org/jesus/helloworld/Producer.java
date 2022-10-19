@@ -6,7 +6,7 @@ import com.rabbitmq.client.Channel;
 
 public class Producer {
 
-  private static final String QUEUE_NAME = "patata";
+  static final String QUEUE_NAME = "patata";
   public static void main(String[] argv) throws Exception {
     ConnectionFactory factory = new ConnectionFactory();
     factory.setHost("localhost");
