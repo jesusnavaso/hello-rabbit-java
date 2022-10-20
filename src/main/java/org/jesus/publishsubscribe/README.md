@@ -21,7 +21,7 @@ When a new message with routing key pdf_create arrives at the direct exchange, t
 where the `binding_key = routing_key
 
 With `fanout`, all messages made a publisher to the exchange, will get broadcast to all consumers
-that are subscribed to thart exchange
+that are subscribed to that exchange.
 
 ## TEMPORARY QUEUE
 
